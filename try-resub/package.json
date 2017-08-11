@@ -1,0 +1,19 @@
+{
+  "name": "try-resub",
+  "version": "1.0.0",
+  "author": "Mizki SUZUMORI <mizki9577@gmail.com>",
+  "license": "BSD-2-Clause",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.5.3",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
