@@ -23,6 +23,10 @@ module.exports = {
           options: {
             presets: [
               'react',
+              'stage-0',
+            ],
+            plugins: [
+              'transform-decorators-legacy',
             ],
           },
         },
