@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>FuzzyGameOfLife</title>
+    <script type="text/javascript" src="bundle.js" defer></script>
+  </head>
+  <body>
+    <main></main>
+    <pre>
+rule:
+s_i : state (0 <= s_i <= 1)
+sum := sum of neighbors' states
+s_i+1 := {
+    0                           (if sum < 1)
+    (sum - 1) * s_i             (if 1 < sum < 2)
+    s_i + (sum - 2) * (1 - s_i) (if 2 < sum < 3)
+    4 - sum                     (if 3 < sum < 4)
+    0                           (if 4 < sum)
+}
+    </pre>
+  </body>
+</html>
