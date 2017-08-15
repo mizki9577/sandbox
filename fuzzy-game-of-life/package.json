@@ -1,7 +1,6 @@
 {
   "name": "fuzzy-game-of-life",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Mizki SUZUMORI <mizki9577@gmail.com>",
   "license": "BSD-2-Clause",
   "private": true,
