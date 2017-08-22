@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+button, input, label {
+  font-family: monospace;
+}
+
+svg {
+  display: block;
+}
+
+#controls {
+  position: absolute;
+  top: 0;
+  margin: 1em;
+}
