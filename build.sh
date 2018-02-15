@@ -3,7 +3,7 @@
 cat <<EOF > README.md
 # sandbox
 
-<https://mizki9577.github.io/sandbox>
+<https://mizkichan.github.io/sandbox>
 
 EOF
 
