@@ -6,19 +6,13 @@
   "license": "BSD-2-Clause",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --env.development",
-    "build": "webpack --env.production"
+    "build": "parcel build -d . -o bundle.js --no-source-maps src/main.js"
   },
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-minify-webpack-plugin": "^0.2.0",
-    "babel-preset-react": "^6.24.1",
-    "webpack": "^3.5.5",
-    "webpack-dev-server": "^2.7.1"
+    "parcel-bundler": "^1.10.3"
   }
 }
