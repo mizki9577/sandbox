@@ -14,7 +14,7 @@
     "babel-plugin-inferno": "^3.2.0",
     "babili-webpack-plugin": "^0.1.2",
     "webpack": "^3.5.3",
-    "webpack-dev-server": "^2.7.1"
+    "webpack-dev-server": "^3.1.11"
   },
   "dependencies": {
     "inferno": "^3.7.1",
